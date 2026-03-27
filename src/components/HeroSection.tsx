@@ -40,7 +40,7 @@ export default function HeroSection() {
           <motion.h2 {...fadeUp(0.2)} className="text-2xl md:text-3xl font-bold gradient-text mb-5">Product Manager & Business Analyst</motion.h2>
 
           <motion.p {...fadeUp(0.3)} className="text-[15px] leading-relaxed mb-8 max-w-lg" style={{ color: "var(--text-dim)" }}>
-            MS Business Analytics & AI at UT Dallas (GPA 4.0) · MBA from IIM Lucknow · 4+ years driving data-driven product and program impact at MakeMyTrip and Maruti Suzuki. Currently based in Dallas, Texas.
+            MS Business Analytics & AI at UT Dallas (GPA 4.0) · MBA from IIM Lucknow · 4+ years driving data driven product and program impact at MakeMyTrip and Maruti Suzuki. Currently based in Dallas, Texas.
           </motion.p>
 
           <motion.div {...fadeUp(0.4)} className="flex flex-wrap gap-4 mb-10">
