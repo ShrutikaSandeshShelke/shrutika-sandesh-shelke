@@ -40,12 +40,12 @@ export default function HeroSection() {
           <motion.h2 {...fadeUp(0.2)} className="text-2xl md:text-3xl font-bold gradient-text mb-5">Product Manager & Business Analyst</motion.h2>
 
           <motion.p {...fadeUp(0.3)} className="text-[15px] leading-relaxed mb-8 max-w-lg" style={{ color: "var(--text-dim)" }}>
-            MS Business Analytics & AI at UT Dallas (GPA 4.0) · MBA from IIM Lucknow · 4+ years driving data-driven product and program impact at MakeMyTrip and Maruti Suzuki. Currently based in Dallas, Texas.
+            MS Business Analytics & AI at UT Dallas (GPA 4.0) · MBA from IIM Lucknow · 4+ years driving data driven product and program impact at MakeMyTrip and Maruti Suzuki. Currently based in Dallas, Texas.
           </motion.p>
 
           <motion.div {...fadeUp(0.4)} className="flex flex-wrap gap-4 mb-10">
             <a href="#work" className="gradient-btn">View My Work</a>
-            <a href="#" className="outline-btn">Download Resume</a>
+            <a href="https://raw.githubusercontent.com/shrutikasandeshshelke/shrutika-sandesh-shelke/main/resume.pdf" target="_blank" rel="noopener noreferrer" className="outline-btn">Download Resume</a>
           </motion.div>
 
           <motion.div {...fadeUp(0.5)} className="grid grid-cols-2 gap-3 max-w-md">
@@ -70,16 +70,6 @@ export default function HeroSection() {
                 boxShadow: "0 0 40px rgba(124,58,237,0.3)",
               }}
             />
-            {/* Floating badges */}
-            <div className="absolute -top-2 -right-4 glass-card px-3 py-2 text-xs text-white/90 font-medium" style={{ borderRadius: 12, background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)" }}>
-              🟢 KPMG Certified
-            </div>
-            <div className="absolute -bottom-2 -left-4 glass-card px-3 py-2 text-xs text-white/90 font-medium" style={{ borderRadius: 12, background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)" }}>
-              🎓 IIM Lucknow MBA
-            </div>
-            <div className="absolute top-1/2 -right-16 hidden lg:block glass-card px-3 py-2 text-xs text-white/90 font-medium" style={{ borderRadius: 12, background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)" }}>
-              ⭐ GPA 4.0
-            </div>
           </div>
         </motion.div>
       </div>
