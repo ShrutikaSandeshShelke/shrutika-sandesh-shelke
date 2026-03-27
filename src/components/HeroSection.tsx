@@ -45,7 +45,7 @@ export default function HeroSection() {
 
           <motion.div {...fadeUp(0.4)} className="flex flex-wrap gap-4 mb-10">
             <a href="#work" className="gradient-btn">View My Work</a>
-            <a href="#" className="outline-btn">Download Resume</a>
+            <a href="https://raw.githubusercontent.com/shrutikasandeshshelke/shrutika-sandesh-shelke/main/resume.pdf" target="_blank" rel="noopener noreferrer" className="outline-btn">Download Resume</a>
           </motion.div>
 
           <motion.div {...fadeUp(0.5)} className="grid grid-cols-2 gap-3 max-w-md">
