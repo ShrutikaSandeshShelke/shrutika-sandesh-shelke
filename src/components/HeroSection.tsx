@@ -70,16 +70,6 @@ export default function HeroSection() {
                 boxShadow: "0 0 40px rgba(124,58,237,0.3)",
               }}
             />
-            {/* Floating badges */}
-            <div className="absolute -top-2 -right-4 glass-card px-3 py-2 text-xs text-white/90 font-medium" style={{ borderRadius: 12, background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)" }}>
-              🟢 KPMG Certified
-            </div>
-            <div className="absolute -bottom-2 -left-4 glass-card px-3 py-2 text-xs text-white/90 font-medium" style={{ borderRadius: 12, background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)" }}>
-              🎓 IIM Lucknow MBA
-            </div>
-            <div className="absolute top-1/2 -right-16 hidden lg:block glass-card px-3 py-2 text-xs text-white/90 font-medium" style={{ borderRadius: 12, background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)" }}>
-              ⭐ GPA 4.0
-            </div>
           </div>
         </motion.div>
       </div>
